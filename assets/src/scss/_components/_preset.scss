@@ -25,6 +25,12 @@ fieldset{
       width: 100%;
     }
   }
+  &.color-2{
+    color:$color-2;
+    &:after{
+      background:$color-2;
+    }
+  }
   &.fixed{
     &:after{
       width:100%;
