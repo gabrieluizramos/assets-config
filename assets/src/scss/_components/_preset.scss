@@ -7,6 +7,7 @@
   position:relative;
   color:$color-1;
   transition:.2s linear;
+  text-shadow:1px 1px 1px;
   &:after{
     position:absolute;
     content:"";
@@ -132,3 +133,22 @@
   position:absolute;
 }
 // /scrollbar
+
+// selection
+::selection {
+  background:lighten( $color-1 , 10% );
+  color:#FFF;
+}
+::-moz-selection {
+  background:lighten( $color-1 , 10% );
+  color:#FFF;
+}
+::-ms-selection {
+  background:lighten( $color-1 , 10% );
+  color:#FFF;
+}
+::-o-selection {
+  background:lighten( $color-1 , 10% );
+  color:#FFF;
+}
+// /selection
