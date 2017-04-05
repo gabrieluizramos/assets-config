@@ -1,0 +1,1 @@
+"use strict";document.ready=function(e){var t=window.setInterval(function(){"complete"===document.readyState&&(e(),clearInterval(t))},0)};
